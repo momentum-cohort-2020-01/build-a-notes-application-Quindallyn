@@ -15,7 +15,7 @@ function getAllNotes () {
 }
 
 function createNotesHTML (notes) {
-  let notesStr = '<ul id="note-list">'
+  let notesStr = '<ul id="notes-list">'
   for (const note of notes) {
     notesStr += createNoteHTML(note)
   }
